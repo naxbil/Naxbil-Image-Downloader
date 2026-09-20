@@ -1,60 +1,83 @@
+<div align="center">
+
 # Naxbil Image Downloader
 
-Download AI-generated images from public ChatGPT shared conversation links — no login, no API key required.
+**Download AI-generated images from public ChatGPT shared conversation links**
 
-![Naxbil Image Downloader](screenshots/app-main.png)
+No login. No API key. Just paste and download.
 
-## Download
+[![Download](https://img.shields.io/badge/Download-Windows%20.exe-blue?style=for-the-badge&logo=windows)](https://github.com/naxbil/Image-Downloader/releases/latest)
+[![Version](https://img.shields.io/badge/Version-1.0-green?style=for-the-badge)](https://github.com/naxbil/Image-Downloader/releases/latest)
 
-👉 **[Download Latest Release (Windows .exe)](https://github.com/naxbil/Image-Downloader/releases/latest)**
+</div>
 
-No installation needed — just download, run, and paste your link.
+---
+
+## Screenshots
+
+### Home — Paste your ChatGPT share link
+![Home](screenshots/home.png)
+
+### Scan Results — Preview & select images
+![Scan Results](screenshots/scan-results.png)
+
+### Download Complete
+![Download Complete](screenshots/download-complete.png)
+
+### Info — Built-in usage guide
+![Info](screenshots/info.png)
+
+---
 
 ## Features
 
 - 🔗 Paste any public ChatGPT shared link (`chatgpt.com/share/...`)
-- 🖼️ Automatically detects and downloads all AI-generated images from the conversation
-- 📁 Choose your download folder
-- 🚫 No ChatGPT login or API key needed
-- 💻 Clean, simple desktop interface
-- ⚡ Fast batch downloading
+- 🖼️ Automatically scans and loads all AI-generated images from the conversation
+- ✅ Select All or pick individual images
+- 📁 Batch download to a timestamped folder (`IMAGE_yyyymmdd_HHMMSS`)
+- 🔒 Privacy-first — never asks for login, password, cookies, or API key
+- 💻 Dark-themed, clean desktop UI
 
 ## How to Use
 
 1. Open a ChatGPT conversation that contains generated images
-2. Click **Share** → **Copy link** (make sure it's a public `/share/` link)
+2. Click **Share** → **Create link** (or copy the existing public link)
 3. Open **Naxbil Image Downloader**
-4. Paste the link
-5. Select a download folder
-6. Click **Download** — done!
+4. Paste the link on the **Home** tab → click **SCAN CHAT**
+5. Switch to the **Images** tab — all found images appear as a grid
+6. Use **SELECT ALL** or tick individual images
+7. Click **DOWNLOAD SELECTED** — images are saved to a folder next to the app
 
-## Screenshots
+## System Requirements
 
-| Main Screen | Downloading |
-|---|---|
-| ![Main](screenshots/app-main.png) | ![Downloading](screenshots/app-downloading.png) |
-
-> Replace the screenshot filenames above with your actual screenshot names.
+- Windows 10 / 11
+- No additional software needed (Chrome driver is bundled)
 
 ## Tech Stack
 
 - **Python** — Core logic
-- **PySide6** — Desktop GUI framework
-- **Selenium** — Browser automation for scraping shared pages
+- **PySide6** — Desktop GUI
+- **Selenium** — Browser automation for scraping public share pages
 
-## System Requirements
+## Privacy
 
-- Windows 10/11
-- No additional software needed (Chrome driver is bundled)
+Naxbil Image Downloader only reads the **public** page you give it. It never logs in to your ChatGPT account, never stores cookies, and never sends your data anywhere.
 
 ## About
 
-Built by [Naxbil](https://naxbil.com) — a software studio based in Pune, India.
+Built by **[Naxbil](https://naxbil.com)** — a software studio based in Pune, India.
+
+- 🌐 [naxbil.com](https://naxbil.com)
+- 💼 [LinkedIn](https://linkedin.com/in/devesh-shukla-er)
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file.
+[MIT License](LICENSE)
 
 ---
 
+<div align="center">
+
 ⭐ **If this tool saved you time, star the repo!**
+
+</div>
