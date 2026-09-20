@@ -6,8 +6,8 @@
 
 No login. No API key. Just paste and download.
 
-[![Download](https://img.shields.io/badge/Download-Windows%20.exe-blue?style=for-the-badge&logo=windows)](https://github.com/naxbil/Naxbil-Image-Downloader/releases/latest)
-[![Version](https://img.shields.io/badge/Version-1.0-green?style=for-the-badge)](https://github.com/naxbil/Naxbil-Image-Downloader/releases/latest)
+[![Download](https://img.shields.io/badge/Download-Windows%20.exe-blue?style=for-the-badge&logo=windows)](https://github.com/naxbil/Naxbil-Image-Downloader/releases/download/v1.0.0/Naxbil-Image-Downloader-v1.0.exe)
+[![Version](https://img.shields.io/badge/Version-1.0-green?style=for-the-badge)](https://github.com/naxbil/Naxbil-Image-Downloader/releases/download/v1.0.0/Naxbil-Image-Downloader-v1.0.exe)
 
 </div>
 
